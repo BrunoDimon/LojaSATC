@@ -39,7 +39,7 @@ public class HealthCheckController {
         produto.setValorUnitario(1000.00);
         produto.setDataPrazo(LocalDate.now());
         produto.setPrecoCompra(850.00);
-        produto.setStatus(Status.ATIVO);
+        produto.setStatus(Status.DISPONIVEL);
         produto.setEstocavel(Boolean.TRUE);
 
         produtoRepository.save(produto);

@@ -1,11 +1,14 @@
 package com.Atividade.satc.oja.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Entity
 @DiscriminatorValue("produto")
 public class Produto extends ItemVendavel {
+
+    @NotNull(message = "O nome do produto deve ser informado!")
     @Column(name = "nome", length = 100, nullable = true)
     private String nome;
     @Column(name = "preco_compra", nullable = true)
