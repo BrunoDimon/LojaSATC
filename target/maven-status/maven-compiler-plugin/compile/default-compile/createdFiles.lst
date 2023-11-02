@@ -1,7 +1,6 @@
 com\Atividade\satc\oja\model\QItemVendavel.class
 com\Atividade\satc\oja\repository\FornecedorRepository.class
 com\Atividade\satc\oja\model\ItemVenda.class
-com\Atividade\satc\oja\repository\CustomQuerydslPredicateExecutor.class
 com\Atividade\satc\oja\model\QFornecedor.class
 com\Atividade\satc\oja\resorce\AbstractController.class
 com\Atividade\satc\oja\model\Fornecedor.class
@@ -14,11 +13,13 @@ com\Atividade\satc\oja\model\FormaPagamento.class
 com\Atividade\satc\oja\Service\ValidationException.class
 com\Atividade\satc\oja\model\QCompra.class
 com\Atividade\satc\oja\repository\LocacaoRepository.class
+com\Atividade\satc\oja\enterprise\BooleanBuilderUtil.class
 com\Atividade\satc\oja\model\QLocacao.class
 com\Atividade\satc\oja\health\HealthCheckController.class
 com\Atividade\satc\oja\model\Compra.class
 com\Atividade\satc\oja\model\ItemCompra.class
 com\Atividade\satc\oja\model\QItemCompra.class
+com\Atividade\satc\oja\enterprise\ProdutoDTO.class
 com\Atividade\satc\oja\model\QPessoa.class
 com\Atividade\satc\oja\model\OperacaoFinanceira.class
 com\Atividade\satc\oja\model\MargemLucroException.class
@@ -29,6 +30,7 @@ com\Atividade\satc\oja\model\Balanco.class
 com\Atividade\satc\oja\model\QServico.class
 com\Atividade\satc\oja\model\QCliente.class
 com\Atividade\satc\oja\model\QEntityId.class
+com\Atividade\satc\oja\enterprise\CustomQuerydslPredicateExecutor.class
 com\Atividade\satc\oja\model\QProduto.class
 com\Atividade\satc\oja\repository\VendaRepository.class
 com\Atividade\satc\oja\model\Servico.class
